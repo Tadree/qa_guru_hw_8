@@ -5,8 +5,6 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import ru.jiehk.pages.RegistrationFormPage;
 
-import static ru.jiehk.tests.TestData.*;
-
 public class StudentRegistrationFormTest {
 
     RegistrationFormPage registrationFormPage = new RegistrationFormPage();
