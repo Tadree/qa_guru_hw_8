@@ -5,8 +5,6 @@ import ru.jiehk.utils.RandomUtils;
 
 import java.util.Map;
 
-import static ru.jiehk.utils.RandomUtils.*;
-
 public class TestData {
 
     Faker faker = new Faker();
