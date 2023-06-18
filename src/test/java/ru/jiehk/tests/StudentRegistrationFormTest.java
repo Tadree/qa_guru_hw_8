@@ -19,6 +19,7 @@ public class StudentRegistrationFormTest {
     @Test
     void formTest() {
         registrationFormPage.openPage()
+                .closeAds()
                 .setFirstName(firstName)
                 .setLastName(lastName)
                 .setEmail(email)
